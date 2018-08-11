@@ -5,6 +5,8 @@ I interned under Prof. Lam Kwok Yan and Dr. Anupam Chattopadhyay from the School
 Pudi, a postdoctoral fellow under Dr. Anupam, guided me and helped me develop the Raspberry Pi based compressed sensing application.
 
 ## Overview
+![a](https://user-images.githubusercontent.com/21837899/43992042-66fe836c-9d46-11e8-8374-a2e4845c1a9b.png)
+
 The aim of this project was to use compressed sensing to build a low-cost, remote camera surveillance system.
 - The images captured by the remote raspberry pi are compressed using Non-Orthogonal Random Matrices - `src/funtions.py - CS_Compression`
 - The compressed images are encrypted using the ACORN Authenticated Encryption - `src/acorn.py`
@@ -12,3 +14,5 @@ The aim of this project was to use compressed sensing to build a low-cost, remot
 - Block-based Landweber method is used to recover images from the compressed image - `src/functions.py - CS_Recovery_Filt`
 
 # Results
+Landweber compressed sensing is a block-based compressed sensing algorithm. Varying the block size and dimensions of the 
+measurement matrix affects performance and quality of reconstruction. Since this application was built for real-time survellance applications, a between between the two parameters is to be maintained. 
