@@ -19,7 +19,16 @@ Landweber compressed sensing is a block-based compressed sensing algorithm. Vary
 measurement matrix affects performance and quality of reconstruction. Since this application was built for real-time survellance 
 applications, a between between the two parameters is to be maintained. 
 
-- Sample images: 
+### Sample images: 
+Original Image
+![cake](https://user-images.githubusercontent.com/21837899/43992214-cc312692-9d49-11e8-91eb-8dba59895a0e.jpg)
+
+# Reconstructed Images
+Block Size 8
+![b8s3i5](https://user-images.githubusercontent.com/21837899/43992213-c3677106-9d49-11e8-8223-632c46109d6c.jpg)
+
+Block Size 32
+![b32s6i50](https://user-images.githubusercontent.com/21837899/43992215-d07c5c58-9d49-11e8-896a-f63582e36256.jpg)
 
 
 - Performance Summary
