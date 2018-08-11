@@ -8,7 +8,7 @@ Pudi, a postdoctoral fellow under Dr. Anupam, guided me and helped me develop th
 ![a](https://user-images.githubusercontent.com/21837899/43992042-66fe836c-9d46-11e8-8374-a2e4845c1a9b.png)
 
 The aim of this project was to use compressed sensing to build a low-cost, remote camera surveillance system.
-- The images captured by the remote raspberry pi are compressed using Non-Orthogonal Random Matrices - `src/funtions.py - CS_Compression`
+- The images captured by the remote raspberry pi are compressed using Non-Orthogonal Random Matrices - `src/functions.py - CS_Compression`
 - The compressed images are encrypted using the ACORN Authenticated Encryption - `src/acorn.py`
 - These are sent over a network to a computer which decrypts the images using the authenticated key `src/functions.py - send_object`
 - Block-based Landweber method is used to recover images from the compressed image - `src/functions.py - CS_Recovery_Filt`
