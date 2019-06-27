@@ -1,9 +1,4 @@
 # Compressed-Sensing-of-Images
-
-This repository contains the code which I worked on in the Summer of 2017 at Nanyang Technological Unicersity, Singapore. 
-I interned under Prof. Lam Kwok Yan and Dr. Anupam Chattopadhyay from the School of Computer Science and Engineering. Dr. Vikram Kumar 
-Pudi, a postdoctoral fellow under Dr. Anupam, guided me and helped me develop the Raspberry Pi based compressed sensing application.
-
 ## Overview
 ![a](https://user-images.githubusercontent.com/21837899/43992042-66fe836c-9d46-11e8-8374-a2e4845c1a9b.png)
 
